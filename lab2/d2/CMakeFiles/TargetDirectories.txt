@@ -1,0 +1,4 @@
+/home/vodopyanov/AK/lab2/d2/CMakeFiles/calc.dir
+/home/vodopyanov/AK/lab2/d2/CMakeFiles/main.dir
+/home/vodopyanov/AK/lab2/d2/CMakeFiles/edit_cache.dir
+/home/vodopyanov/AK/lab2/d2/CMakeFiles/rebuild_cache.dir
