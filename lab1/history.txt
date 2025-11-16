@@ -1,0 +1,145 @@
+    1  uname -a
+    2  sudo apt update
+    3  cat /etc/apt/sources.list
+    4  sudo apt install vim
+    5  cd ~
+    6  cd ~/Downloads
+    7  man ls
+    8  ls -l
+    9  dpkg -i chrome.deb
+   10  sudo dpkg -i chrome.deb
+   11  cd /
+   12  sudo -i
+   13  echo "hi all"
+   14  echo "$PWD hi all here"
+   15  echo $PATH
+   16  vi hi.sh
+   17  cd ~
+   18  touch hi.sh
+   19  vi hi.sh
+   20  ./.hi.sh
+   21  cd /
+   22  sudo touch hi.sh
+   23  ./hi.sh
+   24  sudo chmod a+x hi.sh
+   25  sudo chmod 777 hi.sh
+   26  ./hi.sh
+   27  ./hi.sh Ukraine
+   28  cp hi.sh ~/scripts/
+   29  mkdir ~/scripts
+   30  cp hi.sh ~/scripts/
+   31  cp scripts ~/Documents/
+   32  cp -r ~/scripts ~/Documents/
+   33  cd scripts
+   34  cd ~/scripts
+   35  mv hi.sh ..
+   36  cd ..
+   37  rm scripts
+   38  rm -r scripts
+   39  cd /bin
+   40  ls -l
+   41  cd ../..
+   42  tar -cfv scripts.tar scripts
+   43  tar -cvf scripts.tar scripts
+   44  sudo tar -cvf scripts.tar scripts
+   45  mkdir ~/scripts
+   46  sudo tar -cvf scripts.tar scripts
+   47  cd ~
+   48  sudo tar -cvf scripts.tar scripts
+   49  cat h.txt
+   50  cat /var/log/syslog
+   51  tail -n 20 /var/log/syslog
+   52  sudo tail -n 20 /var/log/syslog
+   53  sudo less /var/log/syslog
+   54  cd /
+   55  find . -name dhcp
+   56  sudo find . -name dhcp
+   57  sudo find . -name "*dhcp*"
+   58  grep -ir --color "dhcp"
+   59  sudo grep -ir --color "etc"
+   60  ping google.com
+   61  ping google.com & date >> log.txt
+   62  sudo ping google.com
+   63  vlc
+   64  ls -l
+   65  cd /bin
+   66  ls
+   67  echo $PATH
+   68  set
+   69  whoami
+   70  cd /etc
+   71  ls
+   72  cd ..
+   73  cd lib
+   74  ls
+   75  dmesg
+   76  sudo dmesg
+   77  ls /dev
+   78  sudo dmesg -c
+   79  history
+   80  dmesg
+   81  df -h
+   82  cd /home
+   83  ls -l
+   84  lsmod
+   85  cd /proc
+   86  ls -l
+   87  lsmod
+   88  cat cpuinfo
+   89  echo 1 > /proc/sys/net/ipv4/ip_forward
+   90  sudo -i
+   91  cd ~
+   92  history
+   93  history > history.txt
+    1  fg
+    2  ps aux | grep ping
+    3  kill -TERM 12064
+    4  ps -ef | grep ping
+    5  kill 13235
+    6  sudo kill 13235
+    7  sudo kill -9 13235
+    8  sudo killall vlc
+    9  history >> history.txt    1  sudo 
+    2  sudo rsync -avh /home/ismailov/lab1/ /home/vodopyanov/AK/lab1/
+    3  sudo chown -R vodopyanov:vodopyanov /home/vodopyanov/AK/lab1
+    4  sudo chown -R vodopyanov:vodopyanov /home/vodopyanov/AK/lab1/
+    5  sudo rsync -avh /home/ismailov/lab2/ /home/vodopyanov/AK/lab2/
+    6  sudo rsync -avh /home/ismailov/lab3/ /home/vodopyanov/AK/lab3/
+    7  sudo rsync -avh /home/ismailov/lab4/ /home/vodopyanov/AK/lab4/
+    8  sudo rsync -avh /home/ismailov/lab5/ /home/vodopyanov/AK/lab5/
+    9  sudo rsync -avh /home/ismailov/lab6/ /home/vodopyanov/AK/lab6/
+   10  sudo chown -R vodopyanov:vodopyanov /home/vodopyanov/AK/lab2/
+   11  sudo chown -R vodopyanov:vodopyanov /home/vodopyanov/AK/lab3/
+   12  sudo chown -R vodopyanov:vodopyanov /home/vodopyanov/AK/lab4/
+   13  sudo chown -R vodopyanov:vodopyanov /home/vodopyanov/AK/lab5/
+   14  sudo chown -R vodopyanov:vodopyanov /home/vodopyanov/AK/lab6/
+   15  cd lab1
+   16  cd AK
+   17  cd lab1
+   18  rm -rf .git
+   19  cd .. && cd lab2
+   20  rm -rf .git
+   21  cd .. && cd lab3
+   22  rm -rf .git
+   23  cd .. && cd lab4
+   24  rm -rf .git
+   25  make clean
+   26  git init
+   27  rm -rf .git
+   28  cd .. && cd lab5
+   29  rm -rf .git
+   30  make clean
+   31  cd .. && cd lab6
+   32  make clean
+   33  rm -rf .git
+   34  cd ..
+   35  alias
+   36  cd lab1
+   37  nano script1.sh
+   38  nano script.sh
+   39  ./script.sh 2 10
+   40  ./script.sh 11 10
+   41  ./script.sh 11 120
+   42  ./script.sh 1154 120
+   43  clear
+   44  history >> history.txt
